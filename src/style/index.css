@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
+
+body{
+  background: url(../Images/dark_embroidery.jpg);
+  background-repeat: repeat repeat;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.container{
+  width:80vw;
+  margin: auto;
+
+}
+
+.container h1{
+  margin-top:10vh;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.7em;
+  color:#D4C9AD;
+ 
+}
+.container p{
+  margin-top: 5vh;
+  text-align: justify;
+  font-weight: 400;
+  font-size:0.9em;
+  color:#F1ECDF;
+  line-height: 1.7em;
+}
+
+.container button{
+  margin-top:5vh;
+  font-size: 1.2em;
+  border-radius: 5px;
+}
+
+@media(min-width: 800px){
+  body{
+    background: url(../Images/dark_embroidery@2x.jpg);
+  }
+  .container{
+    width: 70vw;
+  }
+  .container h1{
+    font-size: 2.1em;
+  }
+
+  .container p{
+    margin-top: 5vh;
+    text-align: justify;
+    font-weight: 400;
+    font-size:1.2em;
+    color:#F1ECDF;
+    line-height: 1.8em;
+  }
+  .container button{
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+  }
+}
